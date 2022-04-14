@@ -30,7 +30,7 @@ Users should be able to:
 ### What I learned
 
 This is my first project that I've built using SASS and CSS-Grid System. Since I only worked with CSS-Flexbox and Bootstrap framework before, it was challenging to comletely swicth to knew approach
-build everything from the scratch. Therefore, the code turned out to be not as clean as I wish it to be. And, even though, I prefer to use CSS-Flexbox over Grid, I still found the process very rewarding and I'm glad with a final result!
+build everything from the scratch. Therefore, the code turned out to be not as clean as I wish it to be. And, even though, I prefer to use CSS-Flexbox over Grid, I still found the process very rewarding and I'm glad with the final result!
 
 
 
