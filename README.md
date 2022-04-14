@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/this-is-my-very-first-attempt-working-with-sass-rkU7GtrEc)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -29,8 +29,7 @@ Users should be able to:
 
 ### What I learned
 
-This is my first project that I've built using SASS and CSS-Grid System. Since I only worked with CSS-Flexbox and Bootstrap framework before, it was challenging to comletely swicth to knew approach
-build everything from the scratch. Therefore, the code turned out to be not as clean as I wish it to be. And, even though, I prefer to use CSS-Flexbox over Grid, I still found the process very rewarding and I'm glad with the final result!
+This is my first project that I've built using SASS /SCSS. Since I only worked with CSS-Flexbox and Bootstrap framework before, it was challenging to completely switch to a new approach and build everything from scratch. Therefore, the code turned out to be not as clean as I wish it to be. Usually, I try to maintain my code much neater and shorter! Nevertheless, I like to experiment and found the entire process very rewarding. Overall, I'm glad about the final result!
 
 
 
