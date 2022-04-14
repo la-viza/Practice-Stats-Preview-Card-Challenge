@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+
+  body {
+    background-color: $color-main-background;
+
+    main {
+      min-height: 100vh;
+      -webkit-mask-repeat-x: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .section-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        min-width: 70%;
+
+        @include respond(tab-land) {
+          text-align: center !important;
+          width: 70%;
+          flex-direction: column !important;
+        }
+
+        .card {
+          width: 70%;
+          display: flex;
+          background-color: $color-card-background;
+          color: $color-neutral-white;
+          display: flex;
+          justify-content: space-evenly;
+          border-radius: 0.5rem;
+
+          @include respond(tab-land) {
+            text-align: center !important;
+            width: 70%;
+            flex-direction: column !important;
+          }
+
+          &__content {
+            display: table-cell;
+            width: 50%;
+            position: flex;
+            padding: 0 4rem 0 3.5rem;
+            text-align: left;
+            justify-content: space-evenly;
+
+            p {
+              @include respond(tab-land) {
+                padding: 0;
+              }
+            }
+
+            @include respond(tab-land) {
+              width: 100%;
+              order: 2;
+              flex-direction: column !important;
+              text-align: center !important;
+              justify-content: center;
+            }
+          }
+
+          .col-2-of-2 {
+            width: 50%;
+            position: flex;
+
+            @include respond(tab-land) {
+              width: 100%;
+            }
+
+            .layer {
+              width: 100%;
+              height: auto;
+              position: relative;
+              background-color: rgba($color-accent, 0.9);
+              border-radius: 0 0.5rem 0.5rem 0;
+
+              @include respond(tab-land) {
+                min-width: 100%;
+                margin: 0 auto;
+                order: 1;
+                flex-direction: column !important;
+                border-radius: 0.5rem 0.5rem 0 0;
+              }
+
+              .background-image img {
+                display: block;
+                width: 100%;
+                height: auto;
+                mix-blend-mode: multiply;
+                opacity: 0.75;
+
+                @include respond(tab-land) {
+                  min-width: 100%;
+                  margin: 0 auto;
+                  order: 1;
+                  flex-direction: column !important;
+                }
+              }
+            }
+          }
+
+          h1 {
+            padding: 4.5rem 0 2rem 0;
+
+            @include respond(tab-land) {
+              padding: 1.7rem 0;
+            }
+          }
+
+          #highlight {
+            color: $color-accent;
+          }
+
+          .stats {
+            display: table;
+
+            @include respond(tab-land) {
+              width: 100%;
+            }
+
+            span {
+              display: table-cell;
+
+              span:first-child {
+                width: 33.333333%;
+                padding-left: 0.5rem;
+              }
+              span:not(:first-child) {
+                width: 33.333333%;
+                padding-left: 1.1rem;
+                display: table-cell;
+              }
+
+              @include respond(tab-land) {
+                display: block;
+                flex-direction: column !important;
+                width: 100%;
+                padding: 0;
+              }
+            }
+            .info {
+              display: table;
+              text-transform: uppercase;
+              padding-right: 2rem;
+
+              @include respond(tab-land) {
+                display: block;
+                flex-direction: column !important;
+                width: 100%;
+                padding: 0.5rem 0 2rem 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      font-size: 1rem;
+      font-family: $font-family-seondary;
+      text-align: center;
+      color: $color-neutral-white;
+
+      @include respond(tab-land) {
+        padding-top: 1rem;
+        font-size: 0.5rem;
+      }
+
+      a {
+        color: rgba($color-accent, 0.9);
+      }
+    }
+  }
+}
